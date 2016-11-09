@@ -1,0 +1,28 @@
+<style type="text/css">
+ 
+ #wrapper 
+{ 
+width: 1200px; 
+height:800; 
+margin-left:20px; 
+border: 1px solid black; 
+overflow: hidden; 
+/* will contain if #first is longer than #second */ 
+} 
+#first 
+{  height:800; 
+margin-left: 20px; 
+width: 150px;  
+float:left; 
+/* add this */  
+}
+ #second 
+{ 
+border: 1px solid green; 
+height:800;  
+overflow: hidden; 
+/* if you don't want #second to wrap below #first */ 
+}
+
+
+</style>
